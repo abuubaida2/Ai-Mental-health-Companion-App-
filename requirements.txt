@@ -1,0 +1,18 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+transformers==4.35.2
+# Use a PyTorch release available on PyPI for Windows; adjust if you need CUDA.
+torch==2.10.0
+torchaudio==2.10.0
+librosa==0.10.0
+numpy==1.26.2
+scikit-learn==1.4.0
+python-multipart==0.0.6
+aiofiles==23.1.0
+datasets==2.13.1
+pyarrow==11.0.0
+pydantic==1.10.12
+ # sqlalchemy removed to avoid platform-specific wheel resolution issues; sqlite3 stdlib is used instead
+soundfile==0.12.1
+matplotlib==3.9.2
+joblib==1.3.1

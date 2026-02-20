@@ -1,0 +1,6 @@
+\.venv/
+node_modules/
+ml/models/
+backend/data/
+*.pyc
+__pycache__/
